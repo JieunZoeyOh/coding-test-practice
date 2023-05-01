@@ -24,8 +24,11 @@ class NewNode implements Comparable<NewNode> {
     }
 
     @Override
-    public int compareTo(NewNode o) {
-        return 0;
+    public int compareTo(NewNode other) {
+        if (this.distance < other.distance) {
+            return -1;
+        }
+        return 1;
     }
 }
 
