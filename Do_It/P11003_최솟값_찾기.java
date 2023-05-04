@@ -3,6 +3,11 @@ package Do_It;
 import java.io.*;
 import java.util.*;
 
+/**
+ * p. 74
+ * 문제 010. 최솟값 찾기
+ * 백준 11003 [최솟값 찾기]
+ */
 public class P11003_최솟값_찾기 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
